@@ -2,7 +2,7 @@ console.log("Welcome to Spotify-Clone");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('https://www.pagalworld.pw/same-beef-bohemia-mp3-song/download.html');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Same Beef [Sidhu Moose Wala & Bohemia]", href: "www.https://djjohal.pro/view/song/485815/Same-Beef-Sidhu-Moose-Wala-Bohemia-mp3-song.html" },
+    { songName: "Same Beef [Sidhu Moose Wala & Bohemia]", href: "https://www.pagalworld.pw/same-beef-bohemia-mp3-song/download.html" },
     { songName: "G.O.A.T [Diljit Dosanjh]", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
     { songName: "Bewafa [Imran Khan]", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
     { songName: "Jhanjer [Karan Aujla]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
