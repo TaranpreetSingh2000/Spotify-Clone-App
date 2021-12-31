@@ -2,7 +2,7 @@ console.log("Welcome to Spotify-Clone");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -11,15 +11,15 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     { songName: "Same Beef [Sidhu Moose Wala & Bohemia]", filePath: "https://gaana.com/song/same-beef", coverPath: "Images/1.jpg" },
-    { songName: "G.O.A.T [Diljit Dosanjh]", filePath: "songs/2.mp3", coverPath: "Images/2.jpg" },
-    { songName: "Bewafa [Imran Khan]", filePath: "songs/3.mp3", coverPath: "Images/3.jpg" },
-    { songName: "Jhanjer [Karan Aujla]", filePath: "songs/4.mp3", coverPath: "Images/4.jpg" },
-    { songName: "Lover [Diljit Dosanjh]", filePath: "songs/5.mp3", coverPath: "Images/5.jpg" },
-    { songName: "Underestimate [Geeta Zaildar]", filePath: "songs/6.mp3", coverPath: "Images/6.jpg" },
-    { songName: "So High [Sidhu Moose Wala]", filePath: "songs/7.mp3", coverPath: "Images/7.jpg" },
-    { songName: "Guitar [Diljit Dosanjh]", filePath: "songs/8.mp3", coverPath: "Images/8.jpg" },
-    { songName: "Pasand Bangi [Gurnam Bhullar]", filePath: "songs/9.mp3", coverPath: "Images/9.jpg" },
-    { songName: "Chitta Kurta [Karan Aujla]", filePath: "songs/10.mp3", coverPath: "Images/10.jpg" },
+    { songName: "G.O.A.T [Diljit Dosanjh]", filePath: "2.mp3", coverPath: "Images/2.jpg" },
+    { songName: "Bewafa [Imran Khan]", filePath: "3.mp3", coverPath: "Images/3.jpg" },
+    { songName: "Jhanjer [Karan Aujla]", filePath: "4.mp3", coverPath: "Images/4.jpg" },
+    { songName: "Lover [Diljit Dosanjh]", filePath: "5.mp3", coverPath: "Images/5.jpg" },
+    { songName: "Underestimate [Geeta Zaildar]", filePath: "6.mp3", coverPath: "Images/6.jpg" },
+    { songName: "So High [Sidhu Moose Wala]", filePath: "7.mp3", coverPath: "Images/7.jpg" },
+    { songName: "Guitar [Diljit Dosanjh]", filePath: "8.mp3", coverPath: "Images/8.jpg" },
+    { songName: "Pasand Bangi [Gurnam Bhullar]", filePath: "9.mp3", coverPath: "Images/9.jpg" },
+    { songName: "Chitta Kurta [Karan Aujla]", filePath: "10.mp3", coverPath: "Images/10.jpg" },
 ]
 
 songItems.forEach((element, i) => {
