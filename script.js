@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Same Beef [Sidhu Moose Wala & Bohemia]", filePath: "songs/1.mp3", coverPath: "Images/1.jpg" },
+    { songName: "Same Beef [Sidhu Moose Wala & Bohemia]", filePath: "https://gaana.com/song/same-beef", coverPath: "Images/1.jpg" },
     { songName: "G.O.A.T [Diljit Dosanjh]", filePath: "songs/2.mp3", coverPath: "Images/2.jpg" },
     { songName: "Bewafa [Imran Khan]", filePath: "songs/3.mp3", coverPath: "Images/3.jpg" },
     { songName: "Jhanjer [Karan Aujla]", filePath: "songs/4.mp3", coverPath: "Images/4.jpg" },
